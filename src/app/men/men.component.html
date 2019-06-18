@@ -1,0 +1,16 @@
+<p>
+  men works!
+</p>
+<router-outlet></router-outlet>
+
+<div *ngFor="let category of mensCategories">
+   <h3 routerLink="men/category" (click)="goToDetailPage(category)">{{category}}</h3>
+</div>
+<!-- <a routerLink="category/sale">Sale</a>
+<a routerLink="category/sale">Sale</a>
+<a routerLink="category/sale">Sale</a>
+<a routerLink="category/sale">Sale</a>
+<a routerLink="category/sale">Sale</a>
+<a routerLink="category/sale">Sale</a>
+<a routerLink="category/sale">Sale</a>
+<a routerLink="category/sale">Sale</a> -->
